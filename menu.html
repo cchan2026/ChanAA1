@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Daily Cafe Menu</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Dr+Sugiyama&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+        <style>
+             body{
+                width: 1920px;
+                margin: 0px;
+                background-image: url(cafe_bg2.jpg);
+            }
+            header{
+                position: relative;
+                top: 10px;
+                height: 200px;
+                background-position-y: -600px;
+                background-position-x: -700px;
+                color: rgb(223, 195, 143);
+                background-image: url(menu_bg1.jpg);
+                text-align: center;
+                font-family: 'Dr Sugiyama', cursive;
+                font-size: 75px;
+                -webkit-text-stroke: 0.5px rgb(182, 114, 12);
+            }
+            nav{
+                max-height: 70px;
+                background-image: linear-gradient(to right, rgb(163, 106, 30), rgb(255, 219, 166), rgb(163, 106, 30));
+                padding-top: 0;
+                padding-right: 30px;
+                padding-bottom: 30px;
+                padding-left: 0;
+                position: fixed;
+                top: 0;
+                width: 100%;
+            }
+            nav li{
+                list-style: none;
+                font-family: 'Merriweather', cursive;
+                display: inline;
+                font-size: 30px;
+                text-align: center;
+            }
+            nav img{
+                float: left;
+            }
+            nav a {
+                float: left;
+                display: block;
+                color: black;
+                text-align: center;
+                padding: 16px 50px;
+                text-decoration: none;
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            nav a:hover {
+                background-color: rgb(180, 142, 72);
+                color: white;
+                height: 100%;
+            }
+            article{
+                background-color: rgba(255, 255, 255, 0.363);
+                margin: 10px;
+            }
+            article table img{
+                padding: 20px;
+                width: auto;
+                height: 433.312px;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                padding-left: 30px;
+            }
+            article table tr{
+                margin: 10px;
+            }
+            article table th{
+                padding-top: 20px;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-bottom: 25px;
+                width: 22%;
+                text-align: center;
+                color: black;
+                background-color: white;
+                background-clip: content-box;
+            }
+            article h2{
+                font-size: 70px;
+                font-family: 'Libre Bodoni', serif;
+                text-align: center;
+                padding-top: 30px;
+                color: rgb(204, 140, 20);
+                font-family: 'Pacifico', cursive;
+                -webkit-text-stroke: 0.5px rgb(141, 90, 13);
+            }
+            article h3{
+                font-size: 40px;
+                font-family: 'Merriweather', cursive;
+                text-align: left;
+                padding-top: 10px;
+                padding-left: 40px;
+                color: black;
+                -webkit-text-stroke: 0.25px rgb(141, 90, 13);
+            }
+            .p1{
+                font-size: 40px;
+                font-family: 'Libre Bodoni', serif;
+            }
+            .p2{
+                font-size: 20px;
+                font-family: 'Libre Bodoni', serif;
+                padding-left: 20px;
+                padding-right: 20px;
+                padding-bottom: 20px;
+            }
+            .p3{
+                font-size: 17px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            footer{
+                background-image: linear-gradient(to right, rgb(255, 219, 166), rgb(163, 106, 30), rgb(255, 219, 166));
+                text-align: left;
+                padding: 10px;
+                padding-left: 50px;
+                margin-top: 15px;
+                border-radius: 10px;
+                width: 100%;
+                font-size: 15px;
+                font-family: 'Times New Roman', Times, serif;
+                color: black;
+            }
+    
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><img src="logo_trans.png" alt="Daily Cafe Logo" width=78></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Our Cafe</a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1>DAILY CAFE</h1>
+        </header>
+        <article>
+            <h2>'Daily Cafe' Menu Items</h2>
+            <h3>Drinks & Beverages</h3>
+            <table>
+                <tr>
+                    <td><img src="latte.jpg" alt="Latte"></td>
+                    <th>
+                        <div class="p1"><p>Latte</p></div>
+                        <div class="p2"><p>- milk coffee made up of one or two shots of espresso, steamed milk, and a thin layer of frothed milk as a topping</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (99 pesos), Medium (129 pesos), and Large (149 pesos)</p></div>
+                    </th>
+                    <td><img src="americano.jpg" alt="Americano"></td>
+                    <th>
+                        <div class="p1"><p>Americano</p></div>
+                        <div class="p2"><p>- coffee drink made by diluting espresso into hot water, giving it a similar strength as ordinary brewed coffee, but a different attack and flavor from it at the same time</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (89 pesos), Medium (109 pesos), and Large (119 pesos)</p></div>
+                    </th>
+                </tr>
+                <tr>
+                    <td><img src="caramelfrappe.jpg" alt="Caramel Frappe"></td>
+                    <th>
+                        <div class="p1"><p>Caramel Frappe</p></div>
+                        <div class="p2"><p>- coffee is blended with ice, caramel syrup, and milk to create this sweet beverage with rich caramel flavor</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (109 pesos), Medium (129 pesos), and Large (149 pesos)</p></div>
+                    </th>
+                    <td><img src="caramelmach.jpg" alt="Caramel Macchiato"></td>
+                    <th>
+                        <div class="p1"><p>Caramel Macchiato</p></div>
+                        <div class="p2"><p>- a coffee beverage with a stain of espresso on top of the milk foam</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (129 pesos), Medium (139 pesos), and Large (159 pesos)</p></div>
+                    </th>
+                </tr>
+            </table>
+
+            <h3>Pastries</h3>
+            <table>
+                <tr>
+                    <td><img src="croissant.jpg" alt="Croissant"></td>
+                    <th>
+                        <div class="p1"><p>Croissant</p></div>
+                        <div class="p2"><p>- dough that is folded many times and cut into triangles to form a crescent shaped, and then baked</p></div>
+                        <div class="p3"><p>Price: </p></div>
+                        <div class="p3"><p>Small (49 pesos) and Medium (69 pesos)</p></div>
+                    </th>
+                    <td><img src="pizza.jpg" alt="Pizza"></td>
+                    <th>
+                        <div class="p1"><p>Pizza</p></div>
+                        <div class="p2"><p>- a flat, round, circular base of dough topped with tomato sauce, cheese, and various other toppings possible</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (59 pesos / slice) and Large (79 pesos / slice)</p></div>
+                    </th>
+                </tr>
+                <tr>
+                    <td><img src="glazeddonuts.jpg" alt="Glazed Donuts"></td>
+                    <th>
+                        <div class="p1"><p>Glazed Donuts</p></div>
+                        <div class="p2"><p>- donuts topped with frosting, powdered sugar, or glaze made from milk, sugar, and vanilla combinations</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (20 pesos / piece) and Medium (49 pesos / piece)</p></div>
+                    </th>
+                    <td><img src="sandwich.jpg" alt="Sandwich"></td>
+                    <th>
+                        <div class="p1"><p>Sandwich</p></div>
+                        <div class="p2"><p>- two pieces of bread with ham, cheese, and other filling in between them, forming a light meal that is perfect for breakfast</p></div>
+                        <div class="p3"><p>Prices: </p></div>
+                        <div class="p3"><p>Small (49 pesos) and Medium (69 pesos)</p></div>
+                    </th>
+                </tr>
+            </table>
+        </article>
+        <footer>
+            All media used are from Pexels and Canva; All rights reserved
+        </footer>
+    </body>
+</html>
